@@ -1,46 +1,76 @@
-IBM Data Analyst Capstone Project
-In this Capstone Project, as a newly hired Data Analyst, I'll delve into the dynamic world of IT skill trends. Tasked with aiding our organization's foresight in tech evolution, I'll collect and analyze data from job postings, training portals, and surveys. Our focus will be on discerning the most sought-after programming languages, database skills, and IDEs. Employing diverse data collection methods, including web scraping and API access, I'll wrangle the data and apply statistical techniques for analysis. Ultimately, leveraging IBM Cognos Analytics, I'll craft insightful dashboards and deliver a compelling presentation, showcasing our findings on emerging IT skills.
+# IBM Data Analyst Capstone Project
 
-Scenario 1
-In this scenario, I collected job opening data for technologies like Java, Python, MySQL, C++, and C# using the GitHub Jobs API. This included data collection through APIs and also involved web scraping techniques to gather additional relevant information. Following data collection, I explored the datasets to understand their structure and contents, facilitating further analysis.
+In this Capstone Project, as a newly hired Data Analyst, I delved into the dynamic world of IT skill trends. Tasked with aiding our organization's foresight in tech evolution, I collected and analyzed data from job postings, training portals, and surveys. The focus was on discerning the most sought-after programming languages, database skills, and IDEs. Using diverse data collection methods, including web scraping and API access, I wrangled the data and applied statistical techniques for analysis. The insights were visualized using IBM Cognos Analytics, culminating in a compelling dashboard and presentation on emerging IT skills.
 
-File Names:
-• Collecting Data Using APIs
+---
 
-• Collecting Data Using Web Scraping
+## Scenario 1: Data Collection
+In this scenario, I collected job opening data for technologies like Java, Python, MySQL, C++, and C# using the GitHub Jobs API. This involved both API access and web scraping techniques to gather additional relevant information. After data collection, I explored the datasets to understand their structure and contents for further analysis.
 
-• Web Scraping Review Lab
+**Files:**
+- `Collecting Data Using APIs`
+- `Collecting Data Using Web Scraping`
+- `Web Scraping Review Lab`
+- `Explore the Dataset`
 
-• Explore the Data Set
+---
 
-Scenario 2
-Data Wrangling techniques will be used to perform the following tasks:
+## Scenario 2: Data Wrangling
+Data wrangling techniques were applied to:
+- Identify duplicate rows in the dataset.
+- Remove duplicate rows from the dataframe.
+- Determine missing values for all columns.
+- Obtain value counts for the "Employment" column.
+- Normalize data using two existing columns.
 
-Data wrangling techniques will be utilized to achieve the following tasks: Identifying duplicate rows in the dataset, removing duplicate rows from the dataframe, determining the number of missing values for all columns, obtaining the value counts for the "Employment" column, and normalizing the data using two existing columns.
+**Files:**
+- `Data Wrangling`
 
-File Names:
-• Data Wrangling
+---
 
-Scenario 3
-In this assignment, I will plot a distribution curve and histogram, find the median and outliers of particular columns, compute the interquartile range, determine the upper and lower bounds, and explore correlations between numerical columns. Additionally, you will create a new dataframe.
+## Scenario 3: Exploratory Data Analysis
+In this phase, I:
+- Plotted distribution curves and histograms.
+- Calculated the median and identified outliers in specific columns.
+- Computed the interquartile range and determined upper and lower bounds.
+- Explored correlations between numerical columns.
+- Created a new dataframe for enhanced insights.
 
-File Names:
-• Exploratory Data Analysis Lab
+**Files:**
+- `Exploratory Data Analysis Lab`
 
-Scenario 4
-In this assignment, you'll demonstrate your visualization skills using the Stack Overflow Developer Survey 2019 dataset. You'll create various plots including histograms, scatter plots, bubble plots, box plots, pie charts, bar charts, and stacked charts to illustrate the distribution, relationships, and counts of the data.
+---
 
-File Names:
-• Data Visualization Lab
+## Scenario 4: Data Visualization
+Using the Stack Overflow Developer Survey 2019 dataset, I created various visualizations, including:
+- Histograms
+- Scatter plots
+- Bubble plots
+- Box plots
+- Pie charts
+- Bar charts
+- Stacked charts
 
-Scenario 5
-In this assignment, I developed three dashboard tabs using survey data with IBM Cognos Analytics. The first tab focused on current technology usage, displaying top languages and databases worked with, platforms used, and preferred web frameworks. The second tab highlighted future technology trends, showcasing desired languages, databases, platforms, and web frameworks. The third tab delved into demographics, presenting respondent counts by gender , country, age, and gender categorized by education level. Each visualization utilized appropriate chart types and features to provide insights into technology trends and demographics.
+These visualizations illustrated data distribution, relationships, and counts.
 
-File Names:
-• Peer-Graded Assignment: Building A Dashboard With IBM Cognos Analytics
+**Files:**
+- `Data Visualization Lab`
 
-Scenario 6
-For your final assignment you will create a presentation based on the analysis of your data conducted in previous modules. Your presentation will develop into a story of your analysis that should be compelling and easy to understand. A PowerPoint template has been provided to get you started however you are free to add additional slides, charts and tables.
+---
 
-File Names:
-• Peer-graded Assignment: Final Presentation
+## Scenario 5: Dashboard Creation
+I developed three dashboard tabs using IBM Cognos Analytics:
+1. **Current Technology Usage:** Displaying top languages, databases, platforms, and web frameworks.
+2. **Future Technology Trends:** Highlighting desired languages, databases, and platforms.
+3. **Demographics:** Presenting respondent counts by gender, country, age, and education level.
+
+**Files:**
+- `Peer-Graded Assignment: Building a Dashboard With IBM Cognos Analytics`
+
+---
+
+## Scenario 6: Final Presentation
+For the final assignment, I created a PowerPoint presentation that narrated the analysis conducted throughout the project. This presentation was designed to be compelling, easy to understand, and supported by detailed visualizations and insights.
+
+**Files:**
+- `Peer-Graded Assignment: Final Presentation`
